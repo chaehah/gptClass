@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여행 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>여행 블로그</h1>
+        <nav>
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">목적지</a></li>
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slider">
+            <img src="image1.jpg" alt="Image 1" class="slide">
+            <img src="image2.jpg" alt="Image 2" class="slide">
+            <img src="image3.jpg" alt="Image 3" class="slide">
+        </div>
+
+        <section class="blog-post">
+            <h2>용궁사</h2>
+            <p>우리의 종합 가이드를 통해 산의 숨막히는 아름다움을 발견해보세요...</p>
+            <button onclick="readMore()">더 읽기</button>
+        </section>
+
+        <section class="blog-post">
+            <h2>도라에몽 파크</h2>
+            <p>햇빛 가득한 해변부터 활기찬 해양 생물까지, 최고의 해변 목적지를 탐험해보세요...</p>
+            <button onclick="readMore()">더 읽기</button>
+        </section>
+
+        <section class="blog-post">
+            <h2>사랑방</h2>
+            <p>다양한 지역의 문화 유산을 깊이 있게 탐구할 수 있는 여행 팁을 확인해보세요...</p>
+            <button onclick="readMore()">더 읽기</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 여행 블로그. 모든 권리 보유.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
